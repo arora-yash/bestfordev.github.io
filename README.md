@@ -1,5 +1,6 @@
 # BestForDev
-> It is an open source project which aims to provide the list of best resources all around the web at one place. 
+
+> It is an open source project which aims to provide the list of best resources all around the web at one place.
 
 ## Website
 
@@ -7,14 +8,14 @@ https://bestfordev.github.io/
 
 ## Release History
 
-* 0.0.1
-    * Work in progress
+- 0.0.1
+  - Work in progress
 
 ## Meta
 
-Sahil Rajput – [@_sahilrajput](https://twitter.com/_sahilrajput) – sahil.rajput.0196@gmail.com
+Sahil Rajput – [@\_sahilrajput](https://twitter.com/_sahilrajput) – sahil.rajput.0196@gmail.com
 
-Distributed under the MIT license. See ``LICENSE`` for more information.
+Distributed under the MIT license. See `LICENSE` for more information.
 
 [https://github.com/sahil-rajput/BestForDev](https://github.com/sahil_rajput/BestForDev)
 
@@ -33,3 +34,4 @@ Distributed under the MIT license. See ``LICENSE`` for more information.
 3. Login using Twitter API for Upvote/Downvote.
 4. Add Upvote/Downvote button and sort all the links in decreasing order (So that the user will get the best link on top).
 5. More... (After completion of first 4 points).
+
