@@ -1,0 +1,123 @@
+ body
+ {
+ 	font-family:Lato,'Helvetica Neue',Helvetica,Arial,sans-serif
+ }
+h1,h2,h3,h4,h5,h6
+{
+	font-family:Lato,'Helvetica Neue',Helvetica,Arial,sans-serif;
+	font-weight:200
+}
+.con 
+{
+  max-width:900px;
+  display:block;
+  margin:0 auto;
+  text-align: left
+}
+#myInput 
+{
+	background-position: 10px 12px; 
+	background-repeat: no-repeat; 
+	width: 80%; 
+	font-size: 16px;
+	color: blue;
+	padding: 12px 20px 12px 40px;
+	border: 1px solid #ddd; 
+	margin-bottom: 12px;
+}
+#myUL 
+{
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+#myUL li a 
+{
+	border: 1.8px solid #ddd; 
+	margin-top: -1px;
+	background-color: white; 
+	padding: 14px; 	text-decoration: none;
+	font-size: 18px; 
+	color: blue; 
+	display: block;
+}
+#myUL li a:hover:not(.header) 
+{
+	background-color: #eee;
+}
+.container 
+{
+  max-width:900px;
+  display:block;
+  margin:0 auto;
+  text-align: center
+}
+.top-spacer 
+{
+	padding-top: 80px;
+}
+header.masthead
+{
+	position:relative;
+	background-color:#343a40;
+	background:url(../img/back.jpg) no-repeat center center;
+	background-size:cover;
+	padding-top:8rem;
+	padding-bottom:8rem
+}
+header.masthead .overlay
+{
+	position:absolute;
+	background-color:#212529;
+	height:100%;width:100%;top:0;left:0;opacity:.3
+}
+header.masthead h1
+{
+	font-size:2rem
+}
+@media (min-width:768px)
+{
+	header.masthead
+	{
+		padding-top:12rem;
+		padding-bottom:12rem
+	}
+	header.masthead h1
+	{
+		font-size:3rem
+	}
+}
+.showcase .showcase-text
+{
+	padding:3rem
+}
+.showcase .showcase-img
+{
+	min-height:30rem;
+	background-size:cover
+}
+@media (min-width:768px)
+{
+	.showcase .showcase-text
+	{
+		padding:7rem
+	}
+}
+
+.call-to-action
+{
+	position:relative;
+	background-color:#343a40;background:url(../img/back.jpg)
+	no-repeat center center;background-size:cover;padding-top:7rem;padding-bottom:7rem
+}
+.call-to-action .overlay
+{
+	position:absolute;
+	background-color:#212529;
+	height:100%;width:100%;top:0;left:0;opacity:.3
+}
+footer.footer
+{
+	padding-top:4rem;
+	padding-bottom:4rem
+}
