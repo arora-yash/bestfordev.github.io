@@ -1,103 +1,145 @@
 <!DOCTYPE html>
 <html lang="en">
-<link rel="icon" href="img/logo.png"/>
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="BestforDev is an opensource project which aims to provide the list of best technical resources all around the web. ">
-  <meta name="author" content="Sahil Rajput">
-  <title>BestforDev</title>
-  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
-  <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet" type="text/css">
-  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
-  <link href="css/page.min.css" rel="stylesheet">
+  <link rel="icon" href="img/logo.png" />
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta
+      name="description"
+      content="BestforDev is an opensource project which aims to provide the list of best technical resources all around the web. "
+    />
+    <meta name="author" content="Sahil Rajput" />
+    <title>BestforDev</title>
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" />
+    <link
+      href="vendor/simple-line-icons/css/simple-line-icons.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link href="css/page.min.css" rel="stylesheet" />
 
-  <script src="js/main.js"></script>
-	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-128380625-1"></script>
-	<script>
-  		window.dataLayer = window.dataLayer || [];
-  		function gtag(){dataLayer.push(arguments);}
-  		gtag('js', new Date());
-  		gtag('config', 'UA-128380625-1');
-	</script>
-</head>
+    <script src="js/main.js"></script>
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-128380625-1"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+      gtag("config", "UA-128380625-1");
+    </script>
+  </head>
 
-<body>
-
-  <nav class="navbar navbar-light bg-light static-top">
-    <div class="container">
-      <a class="navbar-brand" href="index.html"><img src="img/logo.png" style="width:50px;"></a>
-      <a class="btn btn-primary" href="https://goo.gl/forms/tlikZ2sY76ho6UYq1">Add Link</a>
-    </div>
-  </nav>
-  <header class="masthead text-white text-center">
-    <div class="overlay"></div>
-    <div class="container">
-      <div class="row">
-        <div class="col-xl-9 mx-auto">
-          <h2 class="mb-5"><font color="yellow"><b>BestForDev</font> is an opensource project which aims to provide <font color="yellow">the list of best technical resources</font> all around the web at one place.</b></h2>
-          <a class="btn btn-primary" href="https://github.com/bestfordev">See project</a>
+  <body>
+    <nav class="navbar navbar-light bg-light static-top">
+      <div class="container">
+        <a class="navbar-brand" href="index.html"
+          ><img src="img/logo.png" style="width:50px;"
+        /></a>
+        <a class="btn btn-primary" href="https://goo.gl/forms/tlikZ2sY76ho6UYq1"
+          >Add Link</a
+        >
+      </div>
+    </nav>
+    <header class="masthead text-white text-center">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-9 mx-auto">
+            <h2 class="mb-5">
+              <b
+                ><font color="yellow">BestForDev</font> is an opensource project
+                which aims to provide
+                <font color="yellow">the list of best technical resources</font>
+                all around the web at one place.</b
+              >
+            </h2>
+            <a class="btn btn-primary" href="https://github.com/bestfordev"
+              >See project</a
+            >
+          </div>
         </div>
       </div>
-    </div>
-  </header>
-  <div class="top-spacer"></div>
-  <div class="container">
-  	<h1 class="mb-5" align="center"><font color="black"><b>I want to</b></font></h1>
-  	<input type="text" id="myInput" onkeyup="search()" placeholder="Search">
-	<ul id="myUL">
-      <li><a href="./find/learn-javascript/index.html">Learn JavaScript</a></li>
-      <li><a href="./find/learn-django/index.html">Learn Django</a></li>
-      <li><a href="./find/build-fel/index.html">Build Front-end libraries</a></li>
-      <li><a href="./find/build-clt/index.html">Build Command Line Tools</a></li>
-      <li><a href="./find/build-docker/index.html">Build Docker</a></li>
-      <li><a href="./find/build-pl/index.html">Build Programming Language</a></li>
-      <li><a href="./find/build-db/index.html">Build Database</a></li>
-      <li><a href="./find/build-se/index.html">Build Search Engine</a></li>
-      <li><a href="./find/build-shell/index.html">Build Shell</a></li>
-      <li><a href="./find/build-git/index.html">Build Git</a></li>
-      <li><a href="./find/build-os/index.html">Build Operating System</a></li>
-	</ul>
-	</div>
-  <br>
-
-  <footer class="footer bg-light">
+    </header>
+    <div class="top-spacer"></div>
     <div class="container">
-      <div class="row">
-        <div class="col-lg-6 h-100 text-center text-lg-left my-auto">
-          <ul class="list-inline mb-2">
-            <li class="list-inline-item">
-              <a href="mailto:sahil.rajput.0196@gmail.com">Sahil Rajput - sahil.rajput.0196@gmail.com</a>
-            </li>
-          </ul>
-          <p class="text-muted small mb-4 mb-lg-0">&copy; BestforDev 2019. All Rights Reserved.</p>
-        </div>
-
-        <div class="col-lg-6 h-100 text-center text-lg-right my-auto">
-          <ul class="list-inline mb-0">
-          	<li class="list-inline-item">
-          		<a href="https://twitter.com/_sahilrajput">
-          			<i class="fab fa-twitter-square fa-2x fa-fw"></i>
-          		</a>
-          	</li>
-            <li class="list-inline-item mr-3">
-              <a href="https://dev.to/sahilrajput">
-                <i class="fab fa-dev fa-2x fa-fw"></i>
-              </a>
-            </li>
-            <li class="list-inline-item">
-              <a href="https://medium.com/@sahil.rajput">
-                <i class="fab fa-medium fa-2x fa-fw"></i>
-              </a>
-            </li>
-
-          </ul>
-        </div>
-
-      </div>
+      <h1 class="mb-5" align="center">
+        <font color="black"><b>I want to</b></font>
+      </h1>
+      <input type="text" id="myInput" onkeyup="search()" placeholder="Search" />
+      <ul id="myUL">
+        <li>
+          <a href="./find/learn-javascript/index.html">Learn JavaScript</a>
+        </li>
+        <li><a href="./find/learn-django/index.html">Learn Django</a></li>
+        <li>
+          <a href="./find/build-fel/index.html">Build Front-end libraries</a>
+        </li>
+        <li>
+          <a href="./find/build-clt/index.html">Build Command Line Tools</a>
+        </li>
+        <li><a href="./find/build-docker/index.html">Build Docker</a></li>
+        <li>
+          <a href="./find/build-pl/index.html">Build Programming Language</a>
+        </li>
+        <li><a href="./find/build-db/index.html">Build Database</a></li>
+        <li><a href="./find/build-se/index.html">Build Search Engine</a></li>
+        <li><a href="./find/build-shell/index.html">Build Shell</a></li>
+        <li><a href="./find/build-git/index.html">Build Git</a></li>
+        <li><a href="./find/build-os/index.html">Build Operating System</a></li>
+      </ul>
     </div>
-  </footer>
-</body>
+    <br />
 
+    <footer class="footer bg-light">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 h-100 text-center text-lg-left my-auto">
+            <ul class="list-inline mb-2">
+              <li class="list-inline-item">
+                <a href="mailto:sahil.rajput.0196@gmail.com"
+                  >Sahil Rajput - sahil.rajput.0196@gmail.com</a
+                >
+              </li>
+            </ul>
+            <p class="text-muted small mb-4 mb-lg-0">
+              &copy; BestforDev 2019. All Rights Reserved.
+            </p>
+          </div>
+
+          <div class="col-lg-6 h-100 text-center text-lg-right my-auto">
+            <ul class="list-inline mb-0">
+              <li class="list-inline-item">
+                <a href="https://twitter.com/_sahilrajput">
+                  <i class="fab fa-twitter-square fa-2x fa-fw"></i>
+                </a>
+              </li>
+              <li class="list-inline-item mr-3">
+                <a href="https://dev.to/sahilrajput">
+                  <i class="fab fa-dev fa-2x fa-fw"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://medium.com/@sahil.rajput">
+                  <i class="fab fa-medium fa-2x fa-fw"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>
